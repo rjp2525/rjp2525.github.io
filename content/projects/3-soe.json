@@ -1,0 +1,16 @@
+{
+  "name": "State of Emergency",
+  "featured": false,
+  "type": "Web Application",
+  "image": "/images/projects/soe.png",
+  "screenshot": "/images/projects/soe-screenshot.png",
+  "description": "State of Emergency was/is one of the roleplay communities for modified cop-vs-robbers Grand Theft Auto 5 servers. It was the first server I ever played on, as this mod was brand new. They used some really outdated software for their website that was integrated with the game, so I used it as an opportunity to surprise the team that ran it with a brand new custom website. It was complete with a calculator for issuing players tickets/infractions on the cop side (everyone used this and loved it), complete forum system with integrated in-game roles and a beautiful/sleek modern design. I ended up leaving this community to focus on my school studies so the site was unfortunately never implemented or presented to them.",
+  "languages": ["Laravel", "React", "Bootstrap", "jQuery"],
+  "github_link": "https://github.com/rjp2525/EvolPCGaming",
+  "live_link": "notactive",
+  "detail_screenshots": [
+    "/images/projects/soe/screenshot_1.png",
+    "/images/projects/soe/screenshot_2.png"
+  ],
+  "date": "Oct 2016 - Dec 2016"
+}

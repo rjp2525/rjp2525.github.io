@@ -25,9 +25,9 @@
           v-if="about"
           class="col-span-8 text-center lg:text-left lg:col-span-5 items-center"
         >
-          <h1 class="text-lg md:text-2xl lg:text-3xl font-light block">
-            {{ about.name }}
-          </h1>
+          <p class="mb-4 font-sourcecode text-cyan-400">
+            Hi! Thanks for stopping by, I'm a
+          </p>
           <h2
             class="text-3xl md:text-6xl lg:text-7xl font-bold text-zinc-400 block"
           >

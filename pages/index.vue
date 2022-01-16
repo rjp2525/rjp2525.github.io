@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 import Header from '@/components/Sections/Header'
 import About from '@/components/Sections/About'
 import Skills from '@/components/Sections/Skills'
@@ -25,5 +26,13 @@ export default {
     Projects,
     Modal,
   },
+
+  mounted() {
+    this.closeMenu()
+  },
+
+  methods: mapActions({
+    closeMenu: 'closeMenu',
+  }),
 }
 </script>

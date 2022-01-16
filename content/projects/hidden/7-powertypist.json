@@ -1,0 +1,16 @@
+{
+  "name": "PowerTypist",
+  "featured": false,
+  "type": "Web Design, Web Application",
+  "image": "/images/projects/speedytype.png",
+  "screenshot": "/images/projects/speedytype-screenshot.png",
+  "description": "PowerTypist/SpeedyType/TypeRacer is a simple typing speed app that I was working on with a friend years ago based off of another typing app. We set out to make it better and have a much nicer UI for competing against friends.",
+  "languages": ["Angular 1.5", "SCSS", "Bootstrap", "Javascript"],
+  "github_link": "https://github.com/rjp2525/PowerTypist",
+  "live_link": "notactive",
+  "detail_screenshots": [
+    "/images/projects/speedytype/screenshot_1.png",
+    "/images/projects/speedytype/screenshot_2.png"
+  ],
+  "date": "Feb 2016"
+}

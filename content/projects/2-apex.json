@@ -1,0 +1,16 @@
+{
+  "name": "Apex ECS",
+  "featured": false,
+  "type": "Web Application, Game Modifications, Chat Bot",
+  "image": "/images/projects/apex.png",
+  "screenshot": "/images/projects/apex-screenshot.png",
+  "description": "Apex Emergency Communications Software was a web-based simulated Computer Aided Dispatch system. I started working on this with a friend (who is an actual 911 dispatcher) for a community of modified roleplay cops-vs-robbers Grand Theft Auto 5 servers. At the time of starting this project, there was a lot of competition to built the best simulated CAD software in the market, so I set out to be the first to incorporate live player tracking with a Google Maps integration. It was challenging but rewarding to see that game coordinates could finally be translated to lat/lng on a Google Maps canvas using custom map tiles. I had also begun integrating a C# client/server plugin, Lua scripts, a NodeJS Discord bot that could move players with linked Apex Discord accounts into generated voice channels to have 'phone calls' with 911 dispatchers. Eventually this market declined as well with the introduction of a new EULA that prevented me from having paid subscriptions for the service.",
+  "languages": ["Laravel", "React", "Bootstrap", "C#", "Lua", "NodeJS"],
+  "github_link": "https://github.com/rjp2525?tab=repositories&q=apex",
+  "live_link": "notactive",
+  "detail_screenshots": [
+    "/images/projects/apex/screenshot_1.png",
+    "/images/projects/apex/screenshot_2.png"
+  ],
+  "date": "Dec 2013 - Nov 2015"
+}

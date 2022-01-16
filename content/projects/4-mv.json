@@ -1,0 +1,16 @@
+{
+  "name": "State of Emergency",
+  "featured": false,
+  "type": "Web Application",
+  "image": "/images/projects/mv.png",
+  "screenshot": "/images/projects/mv-screenshot.png",
+  "description": "Imagine that, huh? Yes, I owned a landscaping company at one point. My first year in business part time was in 2017, so I didn't have a website yet. The following year I had a 'coming soon' page for most of the season and finally in 2019-2020, I designed and deployed this new site. I was using a combination of other software to run and manage the business and customer relations so I figured I would start implementing some of the features I used most often into my own company website. It proved to be difficult to find time to work on the site when I had a million and one things going on with the business 34 hours a day, then add Covid-19 to the list of stresses. I ended up getting out of the business all together in July of 2020 to focus more on LBMS, which is my SaaS version of the software I was going to build for Mountain View.",
+  "languages": ["Laravel", "Vue", "Bootstrap"],
+  "github_link": "https://github.com/rjp2525/MountainView",
+  "live_link": "notactive",
+  "detail_screenshots": [
+    "/images/projects/mv/screenshot_1.png",
+    "/images/projects/mv/screenshot_2.png"
+  ],
+  "date": "Feb 2017 - Jul 2020"
+}

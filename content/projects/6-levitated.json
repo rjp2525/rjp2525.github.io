@@ -1,0 +1,16 @@
+{
+  "name": "Levitated Media",
+  "featured": false,
+  "type": "Web Design",
+  "image": "/images/projects/levitated.png",
+  "screenshot": "/images/projects/levitated-screenshot.png",
+  "description": "This was one of the only design screenshots I could find of the site I built for my friend that owned a drone videography company. It featured a full screen video background, which was actually one of the first times I had ever incorporated video backgrounds on any website.",
+  "languages": ["HTML", "SCSS", "Bootstrap", "Javascript"],
+  "github_link": "notfound",
+  "live_link": "notactive",
+  "detail_screenshots": [
+    "/images/projects/levitated/screenshot_1.png",
+    "/images/projects/levitated/screenshot_2.png"
+  ],
+  "date": "Dec 2013 - Nov 2015"
+}

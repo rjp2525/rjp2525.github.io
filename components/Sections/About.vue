@@ -1,6 +1,6 @@
 <template>
   <section id="about">
-    <div class="container mx-auto px-8 py-8 md:px-20 md:py-28 max-w-full">
+    <div class="container mx-auto px-8 py-8 md:px-20 md:py-28 max-w-6xl">
       <div
         class="mb-5 lg:mb-10 flex text-center justify-center align-middle items-center"
       >
@@ -43,7 +43,7 @@
           >
             <div class="absolute inset-0"></div>
             <img
-              :src="`/images/profile/${about.image}`"
+              :src="`/images/profile/${about.image_about}`"
               :alt="about.name"
               class="h-full w-full flex object-cover"
             />
