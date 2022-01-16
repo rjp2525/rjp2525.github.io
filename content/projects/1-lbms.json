@@ -1,0 +1,10 @@
+{
+  "name": "Landscape Business Management Software",
+  "featured": true,
+  "image": "/images/projects/lbms.png",
+  "screenshot": "/images/projects/lbms-screenshot.png",
+  "description": "Landscape Business Management Software (LBMS) is a SaaS application I began working on last year after experiencing some of the pains that landscaping business owners endure. People had a lot of ideas in things they wanted if the 'perfect' software existed, and a lot of things that they didn't like about their current software. I used all this feedback to build the roadmap for my own software and it's something I enjoy working on in my free time.",
+  "languages": ["Laravel", "Vue", "Tailwind", "Redis", "Inertia"],
+  "github_link": "private",
+  "live_link": "https://lbms.io"
+}

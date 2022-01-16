@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .bg-blur {
+    backdrop-filter: blur(4px);
+  }
+
+  .writing-v-lr {
+    writing-mode: vertical-lr;
+  }
+}
+
+.vue-typer .custom.char {
+  color: rgb(161 161 170 / var(--tw-text-opacity));
+}
+
+.vue-typer .custom.caret {
+  background-color: rgb(161 161 170 / var(--tw-text-opacity));
+  width: 3px;
+}

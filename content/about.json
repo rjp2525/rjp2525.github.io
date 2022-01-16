@@ -1,0 +1,8 @@
+{
+  "name": "Reno Philibert",
+  "title": "Software Developer",
+  "image": "reno.png",
+  "bio": "A technical, team-oriented software developer with a passion and demonstrated ability for creating the best solutions that are effective and intuitive, especially in this fast-paced world of evolving technology.",
+  "description": "I'm Reno, a software developer from New Hampshire with a passion for creating. I started learning how to program as a side hobby when I was a freshman in high school, so everything I know has been a self-taught journey. \n Among all the languages and frameworks I've dabbled in over the last 10 years, I have grown to reserve a special place in my heart for PHP because of Laravel, along with Vue Tailwind. Many of my personal projects have been built with this stack (some React, too). \n Outside of software development, I really enjoy hiking in the White Mountains, snowboarding, running and spending time with my dog, Maya.",
+  "replace": ["Software Developer", "Snowboarder", "Photographer", "Avid Hiker"]
+}

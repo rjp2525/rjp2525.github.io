@@ -1,0 +1,94 @@
+{
+  "skills": [
+    {
+      "name": "Laravel",
+      "icon": "laravel.svg",
+      "mobile": true
+    },
+    {
+      "name": "VueJS",
+      "icon": "vuejs.svg",
+      "mobile": true
+    },
+    {
+      "name": "Tailwind",
+      "icon": "tailwindcss.svg",
+      "mobile": true
+    },
+    {
+      "name": "NodeJS",
+      "icon": "nodejs.svg",
+      "mobile": true
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "bootstrap.svg",
+      "mobile": true
+    },
+    {
+      "name": "Python",
+      "icon": "python.svg",
+      "mobile": true
+    },
+    {
+      "name": "React",
+      "icon": "react.svg",
+      "mobile": true
+    },
+    {
+      "name": "MySQL",
+      "icon": "mysql.svg",
+      "mobile": false
+    },
+    {
+      "name": "Photoshop",
+      "icon": "photoshop.svg",
+      "mobile": true
+    },
+    {
+      "name": "Illustrator",
+      "icon": "illustrator.svg",
+      "mobile": true
+    },
+    {
+      "name": "PHP",
+      "icon": "php.svg",
+      "mobile": false
+    },
+    {
+      "name": "VSCode",
+      "icon": "vscode.svg",
+      "mobile": false
+    },
+    {
+      "name": "Sass",
+      "icon": "sass.svg",
+      "mobile": false
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "postgresql.svg",
+      "mobile": false
+    },
+    {
+      "name": "NuxtJS",
+      "icon": "nuxtjs.svg",
+      "mobile": false
+    },
+    {
+      "name": "C#",
+      "icon": "csharp.svg",
+      "mobile": true
+    },
+    {
+      "name": "GraphQL",
+      "icon": "graphql.svg",
+      "mobile": true
+    },
+    {
+      "name": "GitHub",
+      "icon": "github.svg",
+      "mobile": true
+    }
+  ]
+}
