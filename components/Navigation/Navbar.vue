@@ -42,7 +42,13 @@ export default {
       let prevScrollpos = window.pageYOffset
 
       window.onscroll = () => {
-        const currentScrollPos = window.pageYOffset
+        const currentScrollPos =
+          window.pageYOffset || document.documentElement.scrollTop
+
+        // For mobile devices, since momentum scrolling can cause it to go negative
+        if (currentScrollPos < 0) {
+          return
+        }
 
         if (currentScrollPos > 0) {
           this.navbar_transparent = false
