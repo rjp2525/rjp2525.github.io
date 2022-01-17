@@ -3,12 +3,12 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   mode: 'jit',
-  // purge: [
-  //   './components/**/*.{vue,js}',
-  //   './layouts/**/*.vue',
-  //   './pages/**/*.vue',
-  //   './nuxt.config.{js,ts}',
-  // ],
+  purge: [
+    './components/**/*.{vue,js}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './nuxt.config.{js,ts}',
+  ],
   darkMode: 'class',
   theme: {
     colors: {
@@ -99,5 +99,4 @@ module.exports = {
       addUtilities(contentUtilities, ['before', 'after'])
     }),
   ],
-  safelist: ['bg-body-gray', 'bg-body-gray-after'],
 }

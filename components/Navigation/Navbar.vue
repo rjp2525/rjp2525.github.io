@@ -45,18 +45,13 @@ export default {
         const currentScrollPos =
           window.pageYOffset || document.documentElement.scrollTop
 
-        // For mobile devices, since momentum scrolling can cause it to go negative
-        if (currentScrollPos < 0) {
-          return
-        }
-
         if (currentScrollPos > 0) {
           this.navbar_transparent = false
         } else {
           this.navbar_transparent = true
         }
 
-        if (prevScrollpos > currentScrollPos) {
+        if (prevScrollpos > currentScrollPos || currentScrollPos <= 0) {
           this.$refs.navbar.style.top = '0'
         } else {
           this.$refs.navbar.style.top = '-6rem'

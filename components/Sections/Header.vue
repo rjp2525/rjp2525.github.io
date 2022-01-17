@@ -1,8 +1,7 @@
 <template>
   <header
-    class="w-screen h-screen bg-mountains-hiking bg-fixed bg-cover bg-center bg-no-repeat"
+    class="w-screen h-screen bg-mountains-hiking bg-cover bg-center bg-no-repeat"
   >
-    <!--<div class="h-screen w-screen backdrop-blur-md absolute -z-10"></div>-->
     <div
       class="bg-opacity-5 bg-white w-[140%] h-screen rotate-12 absolute top-[-15%] left-[-10%]"
     ></div>

@@ -22,10 +22,10 @@
         <div
           v-for="(skill, index) in skills.skills"
           :key="(index + 1) * Math.random()"
-          class="text-left rounded-md flex mt-7 p-10 bg-skill transition-all hover:shadow-even focus:shadow-even active:shadow-even hover:shadow-cyan-500/50 active:shadow-cyan-500/50 focus:shadow-cyan-500/50"
+          class="text-left rounded-md flex mt-7 p-6 sm:p-10 bg-skill transition-all hover:shadow-even focus:shadow-even active:shadow-even hover:shadow-cyan-500/50 active:shadow-cyan-500/50 focus:shadow-cyan-500/50"
         >
           <div
-            class="justify-center items-center mx-auto sm:mx-0 text-center w-12 h-12 sm:h-6 sm:w-6 sm:relative"
+            class="justify-center items-center mx-auto sm:mx-0 text-center w-16 h-16 sm:h-6 sm:w-6 sm:relative"
           >
             <img
               :src="`/images/skills/${skill.icon}`"
