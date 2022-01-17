@@ -18,13 +18,22 @@ export default {
           'A passionate, intuitive software developer from New Hampshire creating things that improve the web.',
       },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: 'og:title', content: 'Reno Philibert :: Software Developer' },
       {
-        property: 'og:description',
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Reno Philibert :: Software Developer',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
         content:
           'A passionate, intuitive software developer from New Hampshire creating things that improve the web.',
       },
-      { property: 'og:image', content: '/images/profile/reno.png' },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: '/images/profile/reno.png',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
