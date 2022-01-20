@@ -8,6 +8,7 @@
   >
     <article
       v-if="modal.active"
+      v-on-clickaway="closeModal"
       class="bg-zinc-900 w-full max-w-6xl absolute top-0 md:top-1/2 left-0 md:left-1/2 bottom-0 md:bottom-auto md:transform md:-translate-x-1/2 md:-translate-y-1/2 md:rounded-sm shadow-xl overflow-x-hidden overflow-y-auto"
     >
       <div
@@ -121,6 +122,7 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
+import { mixin as clickaway } from 'vue-clickaway'
 import CloseIcon from '@/components/Icons/Close.vue'
 import ExternalLink from '@/components/Icons/ExternalLink.vue'
 
@@ -131,6 +133,8 @@ export default {
     CloseIcon,
     ExternalLink,
   },
+
+  mixins: [clickaway],
 
   computed: mapGetters({
     modal: 'modal',
