@@ -1,7 +1,7 @@
 <template>
   <nav
     ref="navbar"
-    class="px-8 py-4 flex items-center justify-between fixed top-0 w-full bg-blur transition-all duration-300 z-20"
+    class="px-4 py-4 flex items-center justify-between fixed top-0 w-full transition-all duration-300 z-20"
     :class="{
       'bg-transparent': navbar_transparent,
       'backdrop-blur-sm bg-zinc-800/80': !navbar_transparent,
