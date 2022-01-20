@@ -1,5 +1,5 @@
 <template>
-  <div class="h-12">
+  <div class="h-12 text-left justify-start">
     <nuxt-link to="/" class="text-white transform scale-90">
       <svg
         xmlns="http://www.w3.org/2000/svg"
