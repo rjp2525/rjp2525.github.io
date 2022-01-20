@@ -9,14 +9,12 @@
   >
     <Logo />
     <navbar-menu />
-    <menu-toggle />
   </nav>
 </template>
 
 <script>
 import Logo from '@/components/Icons/Logo.vue'
 import NavbarMenu from '@/components/Navigation/NavbarMenu.vue'
-import MenuToggle from '@/components/Navigation/MenuToggle.vue'
 
 export default {
   name: 'Navbar',
@@ -24,7 +22,6 @@ export default {
   components: {
     Logo,
     NavbarMenu,
-    MenuToggle,
   },
 
   data() {
