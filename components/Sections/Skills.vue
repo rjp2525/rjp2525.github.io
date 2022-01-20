@@ -23,24 +23,24 @@
       >
         <h4 class="text-xl">
           My current favorite stack for web applications is
-          <nuxt-link
-            to="https://laravel.com"
+          <a
+            href="https://laravel.com"
             target="_blank"
             class="text-cyan-700 hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400 transition-all"
-            >Laravel</nuxt-link
+            >Laravel</a
           >
           and
-          <nuxt-link
-            to="https://vuejs.org"
+          <a
+            href="https://vuejs.org"
             target="_blank"
             class="text-cyan-700 hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400 transition-all"
-            >Vue</nuxt-link
+            >Vue</a
           >, or
-          <nuxt-link
-            to="https://jamstack.org"
+          <a
+            href="https://jamstack.org"
             target="_blank"
             class="text-cyan-700 hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400 transition-all"
-            >Jamstack</nuxt-link
+            >Jamstack</a
           >
           for static websites. The rest of my preferred working environment
           consists of the below and more:
