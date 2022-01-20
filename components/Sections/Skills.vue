@@ -18,6 +18,34 @@
           ></span>
         </p>
       </div>
+      <div
+        class="text-center items-center align-middle mb-4 text-white-opacity-50 font-bold mt-0 leading-relaxed"
+      >
+        <h4 class="text-xl">
+          My current favorite stack for web applications is
+          <nuxt-link
+            to="https://laravel.com"
+            target="_blank"
+            class="text-cyan-700 hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400 transition-all"
+            >Laravel</nuxt-link
+          >
+          and
+          <nuxt-link
+            to="https://vuejs.org"
+            target="_blank"
+            class="text-cyan-700 hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400 transition-all"
+            >Vue</nuxt-link
+          >, or
+          <nuxt-link
+            to="https://jamstack.org"
+            target="_blank"
+            class="text-cyan-700 hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400 transition-all"
+            >Jamstack</nuxt-link
+          >
+          for static websites. The rest of my preferred working environment
+          consists of the below and more:
+        </h4>
+      </div>
       <div v-if="skills" class="md:hidden grid grid-cols-3 gap-4">
         <div
           v-for="(skill, index) in skills.skills"
@@ -38,28 +66,30 @@
           </div>
         </div>
       </div>
-      <div v-if="skills" class="hidden md:block">
-        <ul
-          class="mx-auto flex items-center justify-center flex-wrap max-w-4xl"
+      <div v-if="skills" class="hidden md:grid grid-cols-3 gap-4">
+        <div
+          v-for="(skill, index) in skills.skills"
+          :key="(index + 1) * Math.random()"
+          class="text-left group rounded-md flex items-center mt-7 p-4 bg-skill transition-all hover:shadow-even focus:shadow-even active:shadow-even hover:shadow-cyan-500/50 active:shadow-cyan-500/50 focus:shadow-cyan-500/50"
         >
-          <li
-            v-for="(skill, index) in skills.skills"
-            :key="(index + 1) * Math.random()"
-            :class="{ hidden: !skill.mobile }"
-            class="m-1 md:m-2 cursor-pointer flex items-center text-zinc-400 border border-zinc-700 hover:text-cyan-400 hover:border-cyan-400 transition-all rounded-xl overflow-hidden"
-          >
-            <div class="p-4 h-14 w-14 overflow-hidden">
-              <img
-                :src="`/images/skills/${skill.icon}`"
-                :alt="skill.name"
-                class="w-full h-full object-contain"
-              />
-            </div>
-            <p class="pr-4 text-sm md:text-base">
+          <div class="p-2 h-16 w-16 overflow-hidden">
+            <img
+              :src="`/images/skills/${skill.icon}`"
+              :alt="skill.name"
+              class="w-full h-full object-contain"
+            />
+          </div>
+          <div class="pl-3">
+            <h3
+              class="group:hover:text-cyan-400 transition-all text-xl text-white mb-1 font-medium leading-tight"
+            >
               {{ skill.name }}
+            </h3>
+            <p class="text-sm text-white-opacity-50 mb-0">
+              {{ skill.description }}
             </p>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>

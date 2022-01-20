@@ -93,16 +93,11 @@
               <span class="text-white-opacity-70 inline-flex font-semibold mr-2"
                 >GitHub:</span
               >
-              <a
-                v-if="modal.content.github_link !== 'private'"
-                :href="modal.content.github_link"
-                class="inline-flex transition items-center hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400"
-                ><div class="flex-shrink-0 h-8 w-8 grid place-items-center">
-                  <external-link class="h-2/3 w-2/3" />
-                </div>
-                {{
-                  modal.content.github_link.split('https://github.com/').pop()
-                }}</a
+              <span
+                v-if="modal.content.github_link == 'private'"
+                style="padding-top: 0.1em; padding-bottom: 0.1rem"
+                class="text-xs font-sourcecode px-3 bg-red-600/20 rounded-full"
+                >Private/Proprietary</span
               >
               <span
                 v-else-if="modal.content.github_link !== 'notfound'"

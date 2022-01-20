@@ -3,92 +3,92 @@
     {
       "name": "Laravel",
       "icon": "laravel.svg",
-      "mobile": true
+      "description": "a PHP web application framework with expressive, elegant syntax"
     },
     {
       "name": "VueJS",
       "icon": "vuejs.svg",
-      "mobile": true
+      "description": "a JavaScript Framework for building user interfaces and single-page apps"
     },
     {
       "name": "Tailwind",
       "icon": "tailwindcss.svg",
-      "mobile": true
+      "description": "for rapidly building modern websites using CSS utility classes"
     },
     {
       "name": "NodeJS",
       "icon": "nodejs.svg",
-      "mobile": true
+      "description": "an asynchronous event-driven JavaScript runtime"
     },
     {
       "name": "Bootstrap",
       "icon": "bootstrap.svg",
-      "mobile": true
+      "description": "CSS framework with components for quickly building responsive sites"
     },
     {
       "name": "Python",
       "icon": "python.svg",
-      "mobile": true
+      "description": "object-oriented programming language with dynamic semantics"
     },
     {
       "name": "React",
       "icon": "react.svg",
-      "mobile": true
+      "description": "JavaScript library for building user interfaces, similar to Vue"
     },
     {
       "name": "MySQL",
       "icon": "mysql.svg",
-      "mobile": false
+      "description": "relational database management system for SQL"
     },
     {
       "name": "Photoshop",
       "icon": "photoshop.svg",
-      "mobile": true
+      "description": "raster graphics editor for creating designs and other cool things"
     },
     {
       "name": "Illustrator",
       "icon": "illustrator.svg",
-      "mobile": true
+      "description": "a graphics editor for creating vector art and designs"
     },
     {
       "name": "PHP",
       "icon": "php.svg",
-      "mobile": false
+      "description": "a general-purpose scripting language geared towards web development"
     },
     {
       "name": "VSCode",
       "icon": "vscode.svg",
-      "mobile": false
+      "description": "my code editor of choice. Streamlined with debugging and version control"
     },
     {
       "name": "Sass",
       "icon": "sass.svg",
-      "mobile": false
+      "description": "a preprocessor scripting language that gets compiled to CSS"
     },
     {
       "name": "PostgreSQL",
       "icon": "postgresql.svg",
-      "mobile": false
+      "description": "an open-source relational database management system"
     },
     {
       "name": "NuxtJS",
       "icon": "nuxtjs.svg",
-      "mobile": false
+      "description": "library based on Vue, Node.js, Webpack and Babel, inspired by Next.js"
     },
     {
       "name": "C#",
       "icon": "csharp.svg",
-      "mobile": true
+      "description": "a general-purpose, multi-paradigm programming language"
     },
     {
       "name": "GraphQL",
       "icon": "graphql.svg",
-      "mobile": true
+      "description": "data query and manipulation language for APIs"
     },
     {
       "name": "GitHub",
       "icon": "github.svg",
-      "mobile": true
+      "description": "hosting for open source software development and Git version control"
     }
   ]
 }
