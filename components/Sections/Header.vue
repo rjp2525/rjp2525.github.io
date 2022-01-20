@@ -12,7 +12,9 @@
         <div
           class="items-center col-span-8 lg:col-span-3 align-middle text-center lg:text-left justify-center"
         >
-          <div class="relative w-72 h-72 rounded-full mx-auto mb-4">
+          <div
+            class="relative w-48 h-48 sm:w-72 sm:h-72 rounded-full mx-auto mb-4"
+          >
             <img
               :src="`/images/profile/${about.image}`"
               :alt="about.name"
