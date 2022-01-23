@@ -1,6 +1,8 @@
 <template>
   <section id="about">
-    <div class="container mx-auto px-8 py-8 md:px-20 md:py-28 max-w-6xl">
+    <div
+      class="container mx-auto px-8 pt-8 pb-4 md:px-20 md:pt-28 md:pb-14 max-w-6xl"
+    >
       <div
         class="mb-5 lg:mb-10 flex text-center justify-center align-middle items-center"
       >
@@ -51,12 +53,32 @@
         </div>
       </div>
     </div>
+    <div v-if="about" class="pt-4 px-8 md:px-20 mx-auto">
+      <h4 class="text-center font-bold text-xl text-white-opacity-70">
+        A <span class="text-cyan-500">few things</span> you'll probably want to
+        know
+      </h4>
+      <div class="container w-full sm:max-w-5xl mx-auto my-5">
+        <accordion
+          id="about-accordion"
+          class="shadow-md"
+          :content="wtk"
+          :multiple="true"
+        ></accordion>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
+import Accordion from '@/components/Elements/Accordion'
+
 export default {
   name: 'About',
+
+  components: {
+    Accordion,
+  },
 
   data() {
     return {
@@ -74,6 +96,34 @@ export default {
       }
 
       return description
+    },
+
+    wtk() {
+      // want_to_know
+      const about = this.about
+      const wtkContent = []
+
+      if (about !== null) {
+        about.want_to_know.forEach((item) => {
+          const twclasses =
+            'mb-4 text-white-opacity-50 text-left text-base font-normal mt-0 leading-relaxed'
+          const contentSplit = item.content.split('\n')
+          let contentHtml = ''
+
+          contentSplit.forEach((item) => {
+            contentHtml += '<p class="' + twclasses + '">' + item + '</p>'
+          })
+
+          wtkContent.push({
+            id: item.id,
+            active: item.active,
+            title: item.title,
+            content: contentHtml,
+          })
+        })
+      }
+
+      return wtkContent
     },
   },
 

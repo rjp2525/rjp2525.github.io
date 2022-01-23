@@ -24,3 +24,13 @@ html {
   background-color: rgb(161 161 170 / var(--tw-text-opacity));
   width: 3px;
 }
+
+.accordion-item-enter-active,
+.accordion-item-leave-active {
+  will-change: height;
+  transition: height 0.2s ease;
+}
+.accordion-item-enter,
+.accordion-item-leave-to {
+  height: 0 !important;
+}

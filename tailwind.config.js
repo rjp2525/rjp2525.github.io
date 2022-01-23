@@ -62,6 +62,9 @@ module.exports = {
         even: '0 0 10px rgb(0 0 0 / 0.1), 0 0 5px rgb(0 0 0 / 0.1)',
         'skill-item': '0 2px 70px 0 rgb(34,211,238 / 5%)',
       },
+      rotate: {
+        225: '225deg',
+      },
     },
   },
   variants: {

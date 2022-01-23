@@ -3,7 +3,7 @@
     class="w-screen h-screen bg-mountains-hiking bg-cover bg-center bg-no-repeat"
   >
     <div
-      class="bg-opacity-5 bg-white w-[140%] h-screen rotate-12 absolute top-[-15%] left-[-10%]"
+      class="bg-opacity-5 bg-white w-[140%] h-screen rotate-12 absolute top-[-5%] xl:top-[-8%] left-[-10%]"
     ></div>
     <div
       class="4 mx-auto px-8 py-4 md:px-12 md:py-10 flex z-10 items-center min-h-screen max-w-8xl"
