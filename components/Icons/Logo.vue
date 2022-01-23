@@ -4,6 +4,8 @@
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
+        width="auto"
+        height="100%"
         viewBox="0 0 642.96 249.46"
       >
         <path
