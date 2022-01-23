@@ -6,14 +6,14 @@
   >
     <dt class="w-full px-8 py-6 text-left">
       <button
-        class="flex items-center justify-between w-full text-left text-cyan-700 transition-all hover:text-cyan-400 group"
+        class="flex relative items-center justify-between w-full text-left text-cyan-700 transition-all hover:text-cyan-400 group"
         @click="toggle"
       >
         <h4 class="font-semibold font-sourcecode pr-2 md:pr-0">
           {{ item.title }}
         </h4>
         <span
-          class="w-2 h-2 p-0 border-r-2 border-r-cyan-700 border-b-2 border-b-cyan-700 -translate-y-1 rotate-45 transition-transform duration-200 group-hover:border-b-cyan-400 group-hover:border-r-cyan-400"
+          class="w-2 h-2 p-0 border-r-2 absolute top-[50%] right-0 bottom-0 border-r-cyan-700 border-b-2 border-b-cyan-700 -translate-y-1 rotate-45 transition-transform duration-200 group-hover:border-b-cyan-400 group-hover:border-r-cyan-400"
           :class="{
             'translate-y-1 rotate-225': item.active,
           }"
