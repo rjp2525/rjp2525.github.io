@@ -4,7 +4,7 @@
     class="relative border-b border-white-opacity-20 last:border-transparent"
     :class="{ 'is-active': item.active }"
   >
-    <dt class="w-full px-8 py-6 text-left">
+    <dt class="w-full px-4 sm:px-8 py-6 text-left">
       <button
         class="flex relative items-center justify-between w-full text-left text-cyan-700 transition-all hover:text-cyan-400 group"
         @click="toggle"
