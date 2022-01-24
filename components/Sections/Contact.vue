@@ -52,7 +52,7 @@
             </h3>
             <div
               v-if="success"
-              class="rounded-md border border-green-700 p-4 mt-4"
+              class="rounded-md border border-green-700 p-4 mt-4 mb-6"
             >
               <div class="flex">
                 <div class="flex-shrink-0">
@@ -101,7 +101,10 @@
                 </div>
               </div>
             </div>
-            <div v-if="error" class="rounded-md border border-red-600 p-4 mt-4">
+            <div
+              v-if="error"
+              class="rounded-md border border-red-600 p-4 mt-4 mb-6"
+            >
               <div class="flex">
                 <div class="flex-shrink-0">
                   <svg
@@ -166,7 +169,7 @@
                 required
                 aria-required="true"
                 autocomplete="off"
-                class="block w-full border-0 border-b-2 border-b-white-opacity-40 pt-1 pb-3 px-2 text-white-opacity-40 placeholder-white-opacity-40 bg-transparent duration-300 focus:text-cyan-400 focus:border-b-cyan-400 text-base mb-7 transition-all outline-0 ring-0"
+                class="block w-full border-0 border-b-2 border-b-white-opacity-40 pt-1 pb-3 px-2 text-white-opacity-40 placeholder-white-opacity-40 bg-transparent duration-300 focus:text-cyan-400 focus:border-b-cyan-400 text-base mb-7 transition-all outline-0 ring-0 rounded-none"
               />
               <input
                 id="email"
@@ -177,7 +180,7 @@
                 required
                 autocomplete="off"
                 aria-required="true"
-                class="block w-full border-0 border-b-2 border-b-white-opacity-40 pt-1 pb-3 px-2 text-white-opacity-40 placeholder-white-opacity-40 bg-transparent duration-300 focus:text-cyan-400 focus:border-b-cyan-400 text-base mb-7 transition-all outline-0 ring-0"
+                class="block w-full border-0 border-b-2 border-b-white-opacity-40 pt-1 pb-3 px-2 text-white-opacity-40 placeholder-white-opacity-40 bg-transparent duration-300 focus:text-cyan-400 focus:border-b-cyan-400 text-base mb-7 transition-all outline-0 ring-0 rounded-none"
               />
               <input
                 id="subject"
@@ -188,7 +191,7 @@
                 required
                 autocomplete="off"
                 aria-required="true"
-                class="block w-full border-0 border-b-2 border-b-white-opacity-40 pt-1 pb-3 px-2 text-white-opacity-40 placeholder-white-opacity-40 bg-transparent duration-300 focus:text-cyan-400 focus:border-b-cyan-400 text-base mb-7 transition-all outline-0 ring-0"
+                class="block w-full border-0 border-b-2 border-b-white-opacity-40 pt-1 pb-3 px-2 text-white-opacity-40 placeholder-white-opacity-40 bg-transparent duration-300 focus:text-cyan-400 focus:border-b-cyan-400 text-base mb-7 transition-all outline-0 ring-0 rounded-none"
               />
               <textarea
                 id="message"
@@ -199,11 +202,11 @@
                 required
                 autocomplete="off"
                 aria-required="true"
-                class="block w-full border-0 border-b-2 border-b-white-opacity-40 pt-1 pb-8 px-2 text-white-opacity-40 placeholder-white-opacity-40 bg-transparent duration-300 focus:text-cyan-400 focus:border-b-cyan-400 text-base mb-7 transition-all outline-0 ring-0 h-24"
+                class="block w-full border-0 border-b-2 border-b-white-opacity-40 pt-1 pb-8 px-2 text-white-opacity-40 placeholder-white-opacity-40 bg-transparent duration-300 focus:text-cyan-400 focus:border-b-cyan-400 text-base mb-7 transition-all outline-0 ring-0 h-24 rounded-none"
               ></textarea>
               <button
                 type="submit"
-                class="absolute right-0 mr-2 bottom-10 border-0 text-cyan-600 uppercase bg-transparent p-0 text-base font-bold tracking-widest leading-none hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400 transition-all duration-300"
+                class="absolute right-0 mr-2 bottom-10 border-0 text-cyan-600 uppercase bg-transparent p-0 text-base font-bold tracking-widest leading-none hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400 transition-all duration-300 rounded-none"
                 :class="{ 'text-white-opacity-40': submitting }"
                 :disabled="submitting"
               >

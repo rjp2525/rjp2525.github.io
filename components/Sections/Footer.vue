@@ -5,8 +5,7 @@
     >
       <div class="p-4">
         <span
-          >Copyright &copy; {{ new Date().getFullYear() }} Reno J Philibert. All
-          Rights Reserved.</span
+          >Copyright &copy; {{ new Date().getFullYear() }} Reno Philibert.</span
         >
       </div>
       <div class="p-4">
