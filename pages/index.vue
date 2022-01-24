@@ -5,6 +5,8 @@
     <Skills />
     <Modal />
     <Projects />
+    <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -15,6 +17,8 @@ import About from '@/components/Sections/About'
 import Skills from '@/components/Sections/Skills'
 import Projects from '@/components/Sections/Projects'
 import Modal from '@/components/Modals/Modal'
+import Contact from '@/components/Sections/Contact'
+import Footer from '@/components/Sections/Footer'
 
 export default {
   name: 'IndexPage',
@@ -25,6 +29,8 @@ export default {
     Skills,
     Projects,
     Modal,
+    Contact,
+    Footer,
   },
 
   mounted() {

@@ -34,3 +34,10 @@ html {
 .accordion-item-leave-to {
   height: 0 !important;
 }
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #111111 inset !important;
+  -webkit-text-fill-color: rgb(161 161 170 / 50) !important;
+}
