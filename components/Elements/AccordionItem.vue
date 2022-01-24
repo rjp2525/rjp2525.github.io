@@ -9,7 +9,7 @@
         class="flex relative items-center justify-between w-full text-left text-cyan-700 transition-all hover:text-cyan-400 group"
         @click="toggle"
       >
-        <h4 class="font-semibold font-sourcecode pr-2 md:pr-0">
+        <h4 class="font-semibold font-sourcecode pr-8 md:pr-0">
           {{ item.title }}
         </h4>
         <span

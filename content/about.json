@@ -40,7 +40,7 @@
       "id": 5,
       "active": false,
       "title": "What was this site built with?",
-      "content": "Nuxt.js (framework for Vue.js based on Next.js for React) and TailwindCSS. My intial personal site I had up for many years was basic HTML, CSS and a lot of jQuery, so it was time to get it updated. Vue is a really nice JavaScript framework to work with and the ecosystem is fantastic. \n As someone who has used OOCSS/BEM extensively, I was a little skeptical at first towards Tailwind. The more I looked into it, the more I started to fall in love with it. I absolutely love it now and prefer to use it in all of my own projects. It's such a time saver! Since you can 'compose' class names, you don't have to switch between your markup and style files, and you don't have t omake concessions in terms of design. It also keeps your CSS file a lot smaller!"
+      "content": "Nuxt.js (framework for Vue.js based on Next.js for React) and TailwindCSS. My intial personal site I had up for many years was basic HTML, CSS and a lot of jQuery, so it was time to get it updated. Vue is a really nice JavaScript framework to work with and the ecosystem is fantastic. \n As someone who has used OOCSS/BEM extensively, I was a little skeptical at first towards Tailwind. The more I looked into it, the more I started to fall in love with it and now prefer to use it in all of my own projects. It's such a time saver! Since you can 'compose' class names, you don't have to switch between your markup and style files, and you don't have to make concessions in terms of design. It also keeps your CSS file a lot smaller!"
     },
     {
       "id": 6,
