@@ -3,7 +3,7 @@
     <Header data-aos="fade" data-aos-duration="800" />
     <About data-aos="fade-up" data-aos-duration="800" />
     <Skills data-aos="fade-up" data-aos-duration="800" />
-    <Modal data-aos="fade-up" data-aos-duration="800" />
+    <Modal />
     <Projects data-aos="fade-up" data-aos-duration="800" />
     <Contact data-aos="fade-up" data-aos-duration="800" />
     <Footer />
